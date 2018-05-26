@@ -1,0 +1,132 @@
+<!--Defining All The Components-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inv Technologies</title>
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="Like.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <nav>
+          <div class="menu-icon">
+            <i class="fa fa-bars fa-2x"></i>
+          </div>
+          <div class="logo">
+            LOGO
+          </div>
+          <div class="menu">
+            <ul>
+              <li><a href="#" class="cool-link">Home</a></li>
+              <li><a href="#" class="cool-link">About</a></li>
+              <li><a href="#" class="cool-link">Team</a></li>
+              <li><a href="#" class="cool-link">More</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <div class="pimg1">
+  <div class="ptext">
+  </div>
+</div>
+
+<section class="section section-light">
+  <h2>Demostracion Web</h2>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, laudantium, quibusdam? Nobis, delectus, commodi, fugit amet tempora facere dolores nisi facilis consequatur, odio hic minima nostrum. Perferendis eos earum praesentium, blanditiis sapiente labore aliquam ipsa architecto vitae. Minima soluta temporibus voluptates inventore commodi cumque esse suscipit optio aliquam et, dolorem a cupiditate nihil fuga laboriosam fugiat placeat dignissimos! Unde eveniet placeat quisquam blanditiis voluptatem doloremque fugiat dolor repellendus ratione in. Distinctio provident dolorem modi cumque illo enim quidem tempora deserunt nostrum voluptate labore repellat quisquam quasi cum suscipit dolore ab consequuntur, ad porro earum temporibus. Laborum ad temporibus ex, omnis!
+  </p>
+</section>
+
+<div class="pimg2">
+  <div class="ptext">
+    <span class="border trans">
+      Image Two Text
+    </span>
+  </div>
+</div>
+
+<section class="section section-dark">
+  <h2>De Las Capacidades</h2>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, laudantium, quibusdam? Nobis, delectus, commodi, fugit amet tempora facere dolores nisi facilis consequatur, odio hic minima nostrum. Perferendis eos earum praesentium, blanditiis sapiente labore aliquam ipsa architecto vitae. Minima soluta temporibus voluptates inventore commodi cumque esse suscipit optio aliquam et, dolorem a cupiditate nihil fuga laboriosam fugiat placeat dignissimos! Unde eveniet placeat quisquam blanditiis voluptatem doloremque fugiat dolor repellendus ratione in.
+  </p>
+</section>
+
+<div class="pimg3">
+  <div class="ptext">
+    <span class="border trans">
+      Image Three Text
+    </span>
+  </div>
+</div>
+
+<section class="section section-dark">
+  <h2>De HTML, CSS y JS</h2>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, laudantium, quibusdam? Nobis, delectus, commodi, fugit amet tempora facere dolores nisi facilis consequatur, odio hic minima nostrum. Perferendis eos earum praesentium, blanditiis sapiente labore aliquam ipsa architecto vitae. Minima soluta temporibus voluptates inventore commodi cumque esse suscipit optio aliquam et, dolorem a cupiditate nihil fuga laboriosam fugiat placeat dignissimos! Unde eveniet placeat quisquam blanditiis voluptatem doloremque fugiat dolor repellendus ratione in.
+  </p>
+</section>
+
+<div class="pimg1">
+  <div class="ptext">
+  </div>
+</div>
+      <!--section class="section section-light">
+        <h2 id="hype" color="lightblue">Discord API Integration</h2>
+        <img id="hype" src="hype.gif"/-->
+
+      </section>
+      <div class="content">
+        <p>
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        </p>
+        <p>
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        </p>
+      </div>
+        </div>
+        <script type="text/javascript">
+
+        /*Adding some JS to The Components*/
+
+        /*Menu Toggle Button*/
+        $(document).ready(function () {
+          $(".menu-icon").on("click", function () {
+            $("nav ul").toggleClass("showing");
+          });
+        });
+
+        /*Scrolling Effect*/
+        $(window).on("scroll", function() {
+          if($(window).scrollTop()) {
+            $('nav').addClass('black');
+          }
+          else {
+            $('nav').removeClass('black');
+          }
+        })
+        </script>
+  </body>
+</html>
